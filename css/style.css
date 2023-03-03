@@ -137,6 +137,20 @@ body {
 .log-in-link {
   color: #596d48;
 }
+
+nav.mobile-nav {
+  background: transparent;
+  position: absolute;
+  padding: 1rem;
+}
+
+nav.mobile-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+
 @media only screen and (min-width: 700px) {
   body {
     display: flex;
@@ -174,5 +188,9 @@ body {
   .form-row input[type="tel"],
   .form-row input[type="password"] {
     width: 300px;
+  }
+
+  nav.mobile-nav {
+    display: none;
   }
 }
